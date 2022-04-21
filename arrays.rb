@@ -16,9 +16,13 @@ Dogs.shift
 Dogs.unshift("Akitas", "Mutts")
 
 # Index position mastery being shown
-puts Dog_years[0] #This is index position 0, or 28.
+Dog_years[0] #This is index position 0, or 28.
 
 # In the Ages array, the 4 elements are numbered 0-3.
 # So index position 3 is the fourth, or the float
-# data type 9.5. Puts is the displaying, or printing.
-puts Ages[3]
+# data type 9.5.
+Ages[3]
+
+# (Take(n)--> new_ary): This array method returns the
+# first n elements from the array.
+Ages.take(2)
